@@ -102,8 +102,8 @@ def get_img_as_base64(file):
     return base64.b64encode(data).decode()
 
 
-img = get_img_as_base64("HouseImg.png")
-img1 = get_img_as_base64("blur.jpg")
+img = get_img_as_base64("img.png")
+img1 = get_img_as_base64("img.jpg")
 
 page_bg_img = f"""
 <style>
