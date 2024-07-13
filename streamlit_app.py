@@ -103,7 +103,7 @@ def get_img_as_base64(file):
 
 
 img = get_img_as_base64("img.png")
-img1 = get_img_as_base64("img.jpg")
+img1 = get_img_as_base64("blur.jpg")
 
 page_bg_img = f"""
 <style>
